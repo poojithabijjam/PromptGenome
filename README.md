@@ -16,6 +16,5 @@ PromptGenome provides:
 - Evaluation metrics and lineage tracking  
 - A fully automated loop for iterative prompt optimization
 
-This system demonstrates **autonomy, evaluation-driven reasoning, and multi-agent orchestration** — bridging the gap between full-stack development and ML systems design.
 
 
