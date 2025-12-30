@@ -1,0 +1,10 @@
+openai
+pandas
+networkx
+matplotlib
+google-adk
+python-dotenv
+python-multipart
+litellm
+streamlit
+google.genai
