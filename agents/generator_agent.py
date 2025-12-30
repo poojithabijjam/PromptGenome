@@ -1,10 +1,10 @@
 from google.adk.agents.llm_agent import Agent
-from google.adk.agents import SequentialAgent, LlmAgent
-from adk.models.lite_llm import LiteLlm
+from google.adk.agents import LlmAgent
+
 
 generator_agent = Agent(
     name = "prompt_generator",
-    model = LitellM(model="openai/gpt-3.5-turbo",
+    model = LiteLlm(model="openai/gpt-3.5-turbo",
                     temperature=0.6,
                     max_tokens=200),
     instructions = """ You are an expert prompt generator.
