@@ -19,25 +19,3 @@ PromptGenome provides:
 This system demonstrates **autonomy, evaluation-driven reasoning, and multi-agent orchestration** — bridging the gap between full-stack development and ML systems design.
 
 
-                    ┌─────────────────────┐
-                    │   Controller Agent  │
-                    └─────────┬───────────┘
-                              │
-          ┌───────────────────┼───────────────────┐
-          │                   │                   │
-┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
-│ Generator Agent │  │ Mutation Agent  │  │ Selection Agent │
-└────────┬────────┘  └────────┬────────┘  └────────┬────────┘
-         │                     │                     │
-         ▼                     ▼                     ▼
-                 ┌─────────────────────────┐
-                 │     Execution Agent     │
-                 └──────────┬─────────────┘
-                            │
-                 ┌─────────────────────────┐
-                 │    Evaluation Agent     │
-                 └──────────┬─────────────┘
-                            │
-                 ┌─────────────────────────┐
-                 │   Prompt Memory Store   │
-                 └─────────────────────────┘
