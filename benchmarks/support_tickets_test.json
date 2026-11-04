@@ -1,0 +1,50 @@
+[
+  {
+    "input": "My invoice has an extra charge for the enterprise plan.",
+    "expected": "billing"
+  },
+  {
+    "input": "I was billed twice for the enterprise plan.",
+    "expected": "billing"
+  },
+  {
+    "input": "Please refund the payment for the enterprise plan.",
+    "expected": "billing"
+  },
+  {
+    "input": "The checkout page crashes when I try my workspace.",
+    "expected": "technical"
+  },
+  {
+    "input": "The API returns a 500 error for my workspace.",
+    "expected": "technical"
+  },
+  {
+    "input": "The mobile app freezes while loading my workspace.",
+    "expected": "technical"
+  },
+  {
+    "input": "I cannot reset my password for the new subscription.",
+    "expected": "account"
+  },
+  {
+    "input": "Please update the email on my the new subscription account.",
+    "expected": "account"
+  },
+  {
+    "input": "My login was locked after accessing the new subscription.",
+    "expected": "account"
+  },
+  {
+    "input": "What are your business hours for the staging environment?",
+    "expected": "other"
+  },
+  {
+    "input": "Do you offer documentation for the staging environment?",
+    "expected": "other"
+  },
+  {
+    "input": "Where can I find the roadmap for the staging environment?",
+    "expected": "other"
+  }
+]

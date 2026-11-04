@@ -1,0 +1,22 @@
+name: Python CI
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, feature/optimization-pipeline]
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Compile Python sources
+        run: python -m compileall -q core agents examples tests streamlit_app.py
+      - name: Run offline unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Run offline end-to-end smoke test
+        run: python -m examples.run_pipeline

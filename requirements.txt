@@ -1,10 +1,4 @@
-openai
-pandas
-networkx
-matplotlib
-google-adk
-python-dotenv
-python-multipart
-litellm
-streamlit
-google.genai
+openai>=1.50,<3
+pandas>=2.0,<3
+streamlit==1.51.0
+python-dotenv>=1.0,<2

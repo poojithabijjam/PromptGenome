@@ -1,0 +1,146 @@
+[
+  {
+    "input": "The checkout page crashes when I try the enterprise plan.",
+    "expected": "technical"
+  },
+  {
+    "input": "The API returns a 500 error for the enterprise plan.",
+    "expected": "technical"
+  },
+  {
+    "input": "The mobile app freezes while loading the enterprise plan.",
+    "expected": "technical"
+  },
+  {
+    "input": "I cannot reset my password for the enterprise plan.",
+    "expected": "account"
+  },
+  {
+    "input": "Please update the email on my the enterprise plan account.",
+    "expected": "account"
+  },
+  {
+    "input": "My login was locked after accessing the enterprise plan.",
+    "expected": "account"
+  },
+  {
+    "input": "What are your business hours for the enterprise plan?",
+    "expected": "other"
+  },
+  {
+    "input": "Do you offer documentation for the enterprise plan?",
+    "expected": "other"
+  },
+  {
+    "input": "Where can I find the roadmap for the enterprise plan?",
+    "expected": "other"
+  },
+  {
+    "input": "My invoice has an extra charge for my workspace.",
+    "expected": "billing"
+  },
+  {
+    "input": "I was billed twice for my workspace.",
+    "expected": "billing"
+  },
+  {
+    "input": "Please refund the payment for my workspace.",
+    "expected": "billing"
+  },
+  {
+    "input": "I cannot reset my password for my workspace.",
+    "expected": "account"
+  },
+  {
+    "input": "Please update the email on my my workspace account.",
+    "expected": "account"
+  },
+  {
+    "input": "My login was locked after accessing my workspace.",
+    "expected": "account"
+  },
+  {
+    "input": "What are your business hours for my workspace?",
+    "expected": "other"
+  },
+  {
+    "input": "Do you offer documentation for my workspace?",
+    "expected": "other"
+  },
+  {
+    "input": "Where can I find the roadmap for my workspace?",
+    "expected": "other"
+  },
+  {
+    "input": "My invoice has an extra charge for the new subscription.",
+    "expected": "billing"
+  },
+  {
+    "input": "I was billed twice for the new subscription.",
+    "expected": "billing"
+  },
+  {
+    "input": "Please refund the payment for the new subscription.",
+    "expected": "billing"
+  },
+  {
+    "input": "The checkout page crashes when I try the new subscription.",
+    "expected": "technical"
+  },
+  {
+    "input": "The API returns a 500 error for the new subscription.",
+    "expected": "technical"
+  },
+  {
+    "input": "The mobile app freezes while loading the new subscription.",
+    "expected": "technical"
+  },
+  {
+    "input": "What are your business hours for the new subscription?",
+    "expected": "other"
+  },
+  {
+    "input": "Do you offer documentation for the new subscription?",
+    "expected": "other"
+  },
+  {
+    "input": "Where can I find the roadmap for the new subscription?",
+    "expected": "other"
+  },
+  {
+    "input": "My invoice has an extra charge for the staging environment.",
+    "expected": "billing"
+  },
+  {
+    "input": "I was billed twice for the staging environment.",
+    "expected": "billing"
+  },
+  {
+    "input": "Please refund the payment for the staging environment.",
+    "expected": "billing"
+  },
+  {
+    "input": "The checkout page crashes when I try the staging environment.",
+    "expected": "technical"
+  },
+  {
+    "input": "The API returns a 500 error for the staging environment.",
+    "expected": "technical"
+  },
+  {
+    "input": "The mobile app freezes while loading the staging environment.",
+    "expected": "technical"
+  },
+  {
+    "input": "I cannot reset my password for the staging environment.",
+    "expected": "account"
+  },
+  {
+    "input": "Please update the email on my the staging environment account.",
+    "expected": "account"
+  },
+  {
+    "input": "My login was locked after accessing the staging environment.",
+    "expected": "account"
+  }
+]
